@@ -1,0 +1,17 @@
+git pull https://github.com/VirendraChavda/folio.git
+git add .
+git status
+git commit -m 'update repo'
+git push
+npm run deploy
+
+add the below in package json:
+
+after 
+"name": "folio",
+  "version": "0.1.0",
+  "private": true,
+
+add this: 
+
+"homepage": "https://virendrachavda.github.io/folio/" 
